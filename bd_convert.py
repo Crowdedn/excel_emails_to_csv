@@ -96,3 +96,7 @@ def convert_bd(file):
                     print(f"there are no emails on sheet {cur_sheet_name}, or another error")
                 pass
             flag += 1
+
+            
+if __name__ == '__main__':
+    convert_bd()            
