@@ -1,3 +1,6 @@
+import pandas as pd
+import os.path
+
 def convert_bd(file):
     for i in file:
 
