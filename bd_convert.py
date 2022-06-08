@@ -38,7 +38,7 @@ def convert_bd(file):
                     mails.append(elem)
 
             mails_frame = pd.DataFrame(mails)  # save emails as a frame of pandas data
-            print(name)
+            
             try:
                 if mails_frame.empty and not needed_col:
                     print(f'{cur_sheet_name} is empty!')
